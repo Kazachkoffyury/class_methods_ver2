@@ -11,15 +11,11 @@ public class Book {
         this.name = name;
         this.yearPublishing = yearPublishing;
         this.author= author;
-
-
     }
 
     public Author getAuthor () {
         return author;
     }
-
-
 
     public String getName() {
         return name;
@@ -36,8 +32,6 @@ public class Book {
     @Override
     public  String toString(){
         return name + ": " + yearPublishing + " года издания" + " " + author.toString();
-
-
     }
 
     @Override
